@@ -1,0 +1,7 @@
+model,type,MAE,RMSE,error_std_dev,residual_std_dev,paired_t_statistic,paired_t_p_value,t_test_conclusion,f_statistic,f_test_p_value,f_test_conclusion,optimizer
+Random Forest,Classical,389.19,665.05,539.33,647.46,0.0,1.0000,Reference Benchmark,1.0,1.0000,Reference Benchmark,"Randomized/Grid CV (n_estimators=150, max_depth=20, split=3)"
+XGBoost,Classical,426.49,726.76,588.52,721.89,11.5959,1.0451e-30,Statistically Significant (p < 0.05),1.2431,7.9936e-15,Significant Variance Difference (p < 0.05),"Newton-Raphson / 2nd-order Hist-GBDT (lr=0.05, depth=8, subsample=0.9)"
+LightGBM,Classical,424.99,687.21,540.09,684.59,10.0013,2.4616e-23,Statistically Significant (p < 0.05),1.118,6.7503e-05,Significant Variance Difference (p < 0.05),"Hist-based GBDT / Gradient Descent (num_leaves=63, lr=0.05, subsample=0.9)"
+VQR,Quantum,1184.17,1724.19,1253.35,1345.47,54.9982,0.0000e+00,Statistically Significant (p < 0.05),4.3184,2.2204e-16,Significant Variance Difference (p < 0.05),"Adam Optimizer (lr=0.02, batch_size=64, epochs=5, MSE loss)"
+QNN,Quantum,465.58,819.76,674.79,775.2,15.3157,8.3816e-52,Statistically Significant (p < 0.05),1.4335,2.2204e-16,Significant Variance Difference (p < 0.05),"Adam Optimizer (lr=0.01, batch_size=64, epochs=5, MSE loss)"
+QSVR,Quantum,426.11,817.48,697.71,778.75,7.6256,2.8784e-14,Statistically Significant (p < 0.05),1.4467,2.2204e-16,Significant Variance Difference (p < 0.05),"SMO / Dual Quadratic Programming Optimizer (C=10.0, epsilon=0.1)"

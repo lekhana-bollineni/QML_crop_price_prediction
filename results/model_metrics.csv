@@ -1,0 +1,7 @@
+model,type,MAE,RMSE,R2,MAPE,training_time_seconds,prediction_time_seconds,training_samples,test_samples,error_std_dev,residual_std_dev,t_statistic,p_value_paired_ttest,f_statistic,f_test_p_value,optimizer,optimization_status
+Random Forest,Classical,389.19,665.05,0.7948,15.67,81.98,0.05,38019,5109,539.33,647.46,0.0,1.0000,1.0,1.0000,"Randomized/Grid CV (n_estimators=150, max_depth=20, split=3)",Optimized via Validation Tuning
+XGBoost,Classical,426.49,726.76,0.755,17.57,4.65,0.01,38019,5109,588.52,721.89,11.5959,1.0451e-30,1.2431,7.9936e-15,"Newton-Raphson / 2nd-order Hist-GBDT (lr=0.05, depth=8, subsample=0.9)",Optimized via Validation Tuning
+LightGBM,Classical,424.99,687.21,0.7809,17.69,3.65,0.01,38019,5109,540.09,684.59,10.0013,2.4616e-23,1.118,6.7503e-05,"Hist-based GBDT / Gradient Descent (num_leaves=63, lr=0.05, subsample=0.9)",Optimized via Validation Tuning
+VQR,Quantum,1184.17,1724.19,-0.3792,39.39,64.2,9.87,5000,5109,1253.35,1345.47,54.9982,0.0000e+00,4.3184,2.2204e-16,"Adam Optimizer (lr=0.02, batch_size=64, epochs=5, MSE loss)",Optimized via Validation Tuning
+QNN,Quantum,465.58,819.76,0.6882,18.82,45.19,7.55,5000,5109,674.79,775.2,15.3157,8.3816e-52,1.4335,2.2204e-16,"Adam Optimizer (lr=0.01, batch_size=64, epochs=5, MSE loss)",Optimized via Validation Tuning
+QSVR,Quantum,426.11,817.48,0.69,16.1,9.02,6.86,5000,5109,697.71,778.75,7.6256,2.8784e-14,1.4467,2.2204e-16,"SMO / Dual Quadratic Programming Optimizer (C=10.0, epsilon=0.1)",Optimized via Validation Tuning

@@ -1,0 +1,10 @@
+model,params,val_mae,val_rmse
+Random Forest,"{'n_estimators': 80, 'max_depth': 12, 'min_samples_split': 5}",316.9362200223487,550.0449890335332
+Random Forest,"{'n_estimators': 120, 'max_depth': 16, 'min_samples_split': 4}",303.85768714377264,537.9624173193921
+Random Forest,"{'n_estimators': 150, 'max_depth': 20, 'min_samples_split': 3}",299.3559053881033,533.4581521745943
+XGBoost,"{'n_estimators': 120, 'max_depth': 5, 'learning_rate': 0.08, 'subsample': 0.8}",366.3510485372302,614.0527681981844
+XGBoost,"{'n_estimators': 180, 'max_depth': 7, 'learning_rate': 0.06, 'subsample': 0.85}",330.9798292032012,575.2901152645511
+XGBoost,"{'n_estimators': 220, 'max_depth': 8, 'learning_rate': 0.05, 'subsample': 0.9}",322.82895093123074,570.7881673004639
+LightGBM,"{'n_estimators': 120, 'num_leaves': 31, 'learning_rate': 0.08, 'subsample': 0.8}",357.6014615309352,592.2269568470083
+LightGBM,"{'n_estimators': 180, 'num_leaves': 45, 'learning_rate': 0.06, 'subsample': 0.85}",344.2166204870178,578.6642114468561
+LightGBM,"{'n_estimators': 220, 'num_leaves': 63, 'learning_rate': 0.05, 'subsample': 0.9}",336.287246339478,565.7520948450365

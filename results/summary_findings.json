@@ -1,0 +1,8 @@
+{
+  "best_by_MAE": "Random Forest",
+  "best_by_RMSE": "Random Forest",
+  "best_by_R2": "Random Forest",
+  "best_by_MAPE": "Random Forest",
+  "fastest_training_model": "LightGBM",
+  "fastest_prediction_model": "XGBoost"
+}

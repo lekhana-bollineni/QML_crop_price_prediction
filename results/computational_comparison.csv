@@ -1,0 +1,7 @@
+model,type,training_time_seconds,prediction_time_seconds,training_samples,test_samples
+Random Forest,Classical,81.98,0.05,38019,5109
+XGBoost,Classical,4.65,0.01,38019,5109
+LightGBM,Classical,3.65,0.01,38019,5109
+VQR,Quantum,64.2,9.87,5000,5109
+QNN,Quantum,45.19,7.55,5000,5109
+QSVR,Quantum,9.02,6.86,5000,5109

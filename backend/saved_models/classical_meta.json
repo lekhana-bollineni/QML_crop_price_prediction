@@ -1,0 +1,31 @@
+{
+  "Random Forest": {
+    "training_time_seconds": 81.97836130001815,
+    "training_samples": 38019,
+    "params": {
+      "n_estimators": 150,
+      "max_depth": 20,
+      "min_samples_split": 3
+    }
+  },
+  "XGBoost": {
+    "training_time_seconds": 4.651002799975686,
+    "training_samples": 38019,
+    "params": {
+      "n_estimators": 220,
+      "max_depth": 8,
+      "learning_rate": 0.05,
+      "subsample": 0.9
+    }
+  },
+  "LightGBM": {
+    "training_time_seconds": 3.6500078000244685,
+    "training_samples": 38019,
+    "params": {
+      "n_estimators": 220,
+      "num_leaves": 63,
+      "learning_rate": 0.05,
+      "subsample": 0.9
+    }
+  }
+}
